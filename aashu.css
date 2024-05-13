@@ -1,0 +1,196 @@
+/* Initializing the page */
+* {
+   background-color: #ffcccc;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+}
+
+body {
+   margin: 20px 13px 20px 13px;
+   display: flex;
+   flex-direction: column;
+   cursor: url("igm.png"), auto;
+}
+
+/* Animations Used */
+.aashu_1 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s .7s ease forwards;
+}
+
+.aashu_2 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 2s ease forwards;
+}
+
+.aashu_3 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 3.5s ease forwards;
+}
+
+.aashu_4 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 5s ease forwards;
+}
+
+.aashu_5 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 6.5s ease forwards;
+}
+
+.aashu_6 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 7.5s ease forwards;
+}
+
+.aashu_7 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 9s ease forwards;
+}
+
+.aashu_8 {
+   opacity: 0;
+   animation: aashu_animationlinear 1.85s 10.5s ease forwards;
+}
+
+.aashu_9 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 11.7s ease-in forwards;
+}
+
+.aashu_10 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 12s ease-in forwards;
+}
+
+.aashu_11 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 12.5s ease-in forwards;
+}
+
+.aashu_12 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 13s ease-in forwards;
+}
+
+.aashu_13 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 13.5s ease-in forwards;
+}
+
+.aashu_14 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 14s ease-in forwards;
+}
+
+.aashu_15 {
+   opacity: 0;
+   animation: aashu_animationlinear_logo .5s 14.5s ease-in forwards;
+}
+
+@keyframes aashu_animationlinear {
+   0% {
+      opacity: 0;
+      transform: translateX(-50%);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateX(0%);
+   }
+}
+
+@keyframes aashu_animationlinear_logo {
+   0% {
+      opacity: 0;
+      transform: scale(-40%) translateX(-50%);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateX(0%);
+   }
+}
+
+/* Content Styling  */
+.logo {
+   padding: 20px 10px 30px 10px;
+}
+
+.logo img {
+   border: 1.5px solid rgb(109, 107, 107);
+   border-radius: 8px;
+   box-shadow: 20px 4px 9px orange;
+   transition: all .2s ease 0s;
+}
+
+.logo img:hover {
+   transform: scale(1.05);
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);   
+}
+
+.info {
+   font-size: 1.05rem;
+   font-family: "Lucida Handwriting";
+}
+
+.info p {
+   margin: 10px 0px 10px 0px;
+   padding: 5px;
+}
+
+.socials {
+   margin-top: 10px;
+}
+
+.socials a img {
+   width: 35px;
+   margin: 12px 9px 5px 9px;
+   transition: all .3s ease 0s;
+   border-radius: 45%;
+   box-shadow: 2.5px 2.5px 10px grey;
+}
+
+.socials a img:hover {
+   transform: scale(1.2);
+}
+
+/* Usefull Classes */
+.flex-center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.primary-heading {
+   font-family: "Lucida Handwriting";
+   font-size: x-large;
+   font-size: 1.35rem;
+}
+
+.secondary-heading {
+   font-family: "Lucida Handwriting";
+   font-size: 1.15rem;
+   font-weight: 300;
+   padding: 10px 0px 10px 0px;
+}
+
+.underline {
+   text-decoration: underline dotted;
+}
+
+.center {
+   text-align: center;
+}
+
+.grey {
+   color: red;
+}
+
+.cream {
+   color: #4b3a06;
+}
+#clock{
+	color:red;
+}
